@@ -7,6 +7,7 @@ package com.kusnendi;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
@@ -53,6 +54,19 @@ public class CartController {
     public String cart(){
         return "cart";
     }
+    
+//    @RequestMapping(value="/deleted/{productId}")
+//    public String deleted(@PathVariable("productId") Integer productId,HttpSession session){
+//        List<Products> item = (List<Products>) session.getAttribute("baseCart");
+//        int temp =0;
+//        for(int i=0;i<item.size();i++){
+//            if(Objects.equals(item.get(i).getProductId(), productId)){
+//                temp=i;
+//            }
+//        }
+//        item.remove(temp);
+//        return "deleted";
+//    }
     
 //    @RequestMapping(value="/logout")
 //    public String logout(HttpSession session){

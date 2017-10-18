@@ -18,8 +18,9 @@
         <div class="container">
             <div class="jumbotron">
                 <h1>Items Added</h1>
-                <p style="text-align: center;"><a href="main"><button type="button" class="btn btn-info">Continue Shopping</button></a></p> 
-                <p style="text-align: center;"><a href="../../main/cart"><button type="button" class="btn btn-info">Shopping Cart</button></a></p> 
+                <p style="text-align: center;"><a href="../"><button type="button" class="btn btn-info">Continue Shopping</button></a>
+                <a href="../../main/cart"><button type="button" class="btn btn-info">Shopping Cart</button></a></p> 
+                
             </div>
             
         </div>
